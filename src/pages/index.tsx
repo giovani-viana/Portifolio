@@ -10,6 +10,8 @@ import Container from 'react-bootstrap/Container';
 import Carrossel from '../Components/Carrossel';
 import Card from '../Components/Card';
 
+//<a href="https://www.freepik.com/free-vector/detailed-grunge-style-dusty-overlay-texture_16080132.htm#from_view=detail_author">Image by kjpargeter</a> on Freepik
+
 export default function Home() {
   return (
     <>
@@ -19,37 +21,21 @@ export default function Home() {
         <meta name='description' content='A procura de um emprego'></meta>
       </Head>
       <section>
-        <div>
-          <h1 className={styles.title}>Desenvolvedor Web</h1>
-          <h2 className={styles.subtitle}>Codo aplicações web e apps</h2>
-        </div>
-        <Image src="/Images/Dev.svg"
-          width={300}
-          height={300}
-          alt='Imagem do pc' />
-      </section>
-      <section>
           <Container className={styles.container} fluid>
-            <h1 className={styles.presmain}>Muito prazer, me chamo Giovani</h1>
-            <h2 className={styles.presub}>Iniciei minha carreira de desenvolvedor web após entrar para a empresa junior do meu curso, desde então 
-              venho procurando evoluir cada vez mais como desenvolvedor. 
-            </h2>
+            <h1 className={styles.title}>Olá.</h1>
+            <p className={styles.subtitle}>
+              Me chamo Giovani, sou um desenvolvedor web capaz de criar
+            aplicações web e apps
+            </p>
           </Container>
+          <Card />
       </section>
       <section>
         <div>
           <div>
             <h1>Meus projetos</h1>
-            <h2>Aqui estão alguams coisas que eu fiz ou estou fazendo</h2>
+            <h2>Veja no que estou trabalhando atualmente</h2>
             <Carrossel />
-          </div>
-        </div>
-      </section>
-      <section>
-        <div>
-          <div>
-            <h1>Experiências</h1>
-            <h2>Sou muito grato a essa empresa por te me dado tantas oportunidades</h2>
           </div>
         </div>
       </section>

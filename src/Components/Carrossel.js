@@ -8,12 +8,12 @@ export default function Carrossel() {
             <Carousel.Item>
                 <img
                     className={styles.img1}
-                    src="/Images/teste1.png"
+                    src="/Images/teste2.jpg"
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Calculadora de ICMS</h3>
+                    <p>Uma aplicação que auxilia o cálculo de um imposto</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -24,8 +24,9 @@ export default function Carrossel() {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Site Reggae</h3>
+                    <p>Um site desenvolvido para um cliente com o objetivo de <br></br> 
+                    divulgar sobre o reggae nacional</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
