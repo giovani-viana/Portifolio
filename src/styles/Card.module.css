@@ -1,0 +1,10 @@
+.competencias{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcard{
+    margin-top: 10px;
+    width: 18%;
+    height: 30%;
+}
