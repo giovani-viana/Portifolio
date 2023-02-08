@@ -1,3 +1,5 @@
+import styles from '../styles/Contato.module.css'
+
 import Head from "next/head"
 
 import Button from 'react-bootstrap/Button';
@@ -7,7 +9,7 @@ import Container from 'react-bootstrap/Container';
 
 export default function Contato() {
     return (
-        <div>
+        <Container fluid className={styles.contatoContainer}>
             <Head>
                 <title>Contato</title>
             </Head>
@@ -30,6 +32,6 @@ export default function Contato() {
                     </Button>
                 </Form>
             </Container>
-        </div>
+        </Container>
     )
 }

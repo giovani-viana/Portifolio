@@ -1,5 +1,5 @@
-.container {
-    min-height: 60vh;
-    padding: 20px;
+.MainContainer {
+    min-height: 70vh;
+    padding: 0;
     text-align: center;
 }

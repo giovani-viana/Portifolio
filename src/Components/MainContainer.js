@@ -5,9 +5,9 @@ import styles from '../styles/MainContainer.module.css'
 
 export default function MainContainer({ children }) {
     return (
-        <div>
+        <div className={styles.fullContainer}>
             <Navbar />
-            <div className={styles.container}> {children} </div>
+            <div className={styles.MainContainer}> {children} </div>
             <Footer />
         </div>
     )

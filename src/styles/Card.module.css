@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.all{
+    align-items: center;
+}
+
 .imgcard{
     margin-top: 10px;
     width: 18%;

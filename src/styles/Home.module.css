@@ -4,6 +4,7 @@
   font-family: Helvetica;
   font-weight: bold;
   margin: 10px 20px;
+  padding: 13px 0;
 }
 
 .subtitle {
@@ -20,6 +21,16 @@
   font-size: medium;
 }
 
-.container {
-  height: 100px;
+.containerSec1 {
+  background-color: #e5e5e5;
+}
+
+.buttonContacts{
+  margin: 10px;
+  height: 35px;
+  border-radius: 80px;
+}
+
+.imgContato{
+  margin: 12px;
 }

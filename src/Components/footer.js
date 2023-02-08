@@ -4,27 +4,35 @@ import styles from '../styles/Footer.module.css'
 
 import { SlSocialLinkedin, SlSocialGithub, SlSpeech } from "react-icons/sl";
 
+import { Container } from "react-bootstrap";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function () {
     return (
-    <div className={styles.footer}>
-        <ul>
-            <li className={styles.fitem}>
-                <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
-                    <SlSocialLinkedin />
-                </Link>
-            </li>
-            <li className={styles.fitem}>
-                <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
-                    <SlSocialGithub />
-                </Link>
-            </li>
-            <li className={styles.fitem}>
-                <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
-                    <SlSpeech />
-                </Link>
-            </li>
-        </ul>
-        <span>Portifólio Giovani Viana &copy; 2023</span>
-    </div>
+        <Container fluid className={styles.footer}>
+            <Row className={styles.rowT}>
+                <ul className={styles.list}>
+                    <li className={styles.fitem}>
+                        <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
+                            <SlSocialLinkedin className={styles.ImgF} />
+                        </Link>
+                    </li>
+                    <li className={styles.fitem}>
+                        <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
+                            <SlSocialGithub className={styles.ImgF} />
+                        </Link>
+                    </li>
+                    <li className={styles.fitem}>
+                        <Link href={"https://www.linkedin.com/in/giovaniviana/"} target="_blank">
+                            <SlSpeech className={styles.ImgF} />
+                        </Link>
+                    </li>
+                </ul>
+            </Row>
+            <Row>
+                <span className={styles.info}>Portifólio Giovani Viana &copy; 2023</span>
+            </Row>
+        </Container>
     )
 }

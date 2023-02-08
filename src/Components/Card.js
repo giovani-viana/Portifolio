@@ -9,7 +9,7 @@ export default function () {
     return (
         <>
             <Container className={styles.competencias}> 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' }} className={styles.all}>
                  <Card.Img variant="top" src=''/><MdOutlineStorage className={styles.imgcard}/>
                     <Card.Body>
                         <Card.Title>Desenvolvedor Back-End</Card.Title>
@@ -20,8 +20,8 @@ export default function () {
                     </Card.Body>
                 </Card>
                 <div className={styles.separar}></div>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src=""/><div className={styles.test}><MdOutlineDvr className={styles.imgcard}/></div>
+                <Card style={{ width: '18rem' }} className={styles.all}>
+                    <Card.Img variant="top" src=""/><MdOutlineDvr className={styles.imgcard}/>
                     <Card.Body>
                         <Card.Title>Desenvolvedor Front-End</Card.Title>
                         <Card.Text>
